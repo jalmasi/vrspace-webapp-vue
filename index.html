@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRSpace Vue App</title>
+    <!-- All of these can be imported in main.js -->
+    <script src="https://cdn.babylonjs.com/v5.57.1/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/v5.57.1/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://cdn.babylonjs.com/v5.57.1/gui/babylon.gui.min.js"></script>
+    <script src="https://cdn.babylonjs.com/v5.57.1/materialsLibrary/babylonjs.materials.min.js"></script>
+    <script src="https://cdn.babylonjs.com/v5.57.1/proceduralTexturesLibrary/babylonjs.proceduralTextures.min.js"></script>
+    <!-- These ones can not be imported in main.js, no ES6 equivalent -->
+    <script src="https://cdn.jsdelivr.net/gh/BabylonJS/Extensions@master/DynamicTerrain/dist/babylon.dynamicTerrain.min.js"></script>
+    <script src="https://www.vrspace.org/babylon/js/lib/annyang-2.6.1.min.js"></script>
+    <script src="https://www.vrspace.org/babylon/js/lib/perlin.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- 
+    <script type="module" src="/src/AvatarSelectionRemote.js"></script>
+     -->
+    <script type="module" src="/src/AvatarSelectionLocal.js"></script>
+  </body>
+</html>
